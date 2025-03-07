@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:bookappp/pages/barber_tutorial/screen/barber_tutorial.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

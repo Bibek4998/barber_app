@@ -17,8 +17,6 @@ class BarberContent extends StatelessWidget {
         ),
       ),
       backgroundColor: Colors.blue.shade100,
-      body: Padding(padding: const EdgeInsets.all(20),
-    )
-    )
+    );
   }
 }
