@@ -25,13 +25,19 @@ class BarberTutorial extends StatelessWidget {
             Text(
               "Begin your journey with us and enhance your skills in the barbering. Below is barber's beginner to pro tutorial is provided.",
             ),
-            BarberTutorialBox(text: 'Barbering Tools'),
+            BarberTutorialBox(text: 'Barbering Tools', color: Colors.red),
             SizedBox(height: 16),
-            BarberTutorialBox(text: 'Basic Hair Cuts'),
+            BarberTutorialBox(text: 'Basic Hair Cuts', color: Colors.blue),
             SizedBox(height: 16),
-            BarberTutorialBox(text: 'Hair Styling Techniques'),
+            BarberTutorialBox(
+              text: 'Hair Styling Techniques',
+              color: Colors.green,
+            ),
             SizedBox(height: 16),
-            BarberTutorialBox(text: 'Basics of Makeup and Makeup Tools'),
+            BarberTutorialBox(
+              text: 'Basics of Makeup and Makeup Tools',
+              color: Colors.yellow,
+            ),
           ],
         ),
       ),
