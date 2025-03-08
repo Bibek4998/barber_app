@@ -62,12 +62,12 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - lib/assets/images/comb.png
-    - lib/assets/images/hairClipper.png
-    - lib/assets/images/straightRazor.png
-    - lib/assets/images/dryer.png
-    - lib/assets/images/scissors.png
-    - lib/assets/images/brush.png
+    - assets/images/comb.png
+    - assets/images/hairClipper.png
+    - assets/images/straightRazor.png
+    - assets/images/dryer.png
+    - assets/images/scissors.png
+    - assets/images/brush.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

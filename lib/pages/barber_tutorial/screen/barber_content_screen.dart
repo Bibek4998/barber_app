@@ -18,7 +18,7 @@ class BarberContent extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.blue.shade100,
       ),
-      backgroundColor: Colors.blue.shade50,
+      backgroundColor: Colors.green.shade900,
       body: Padding(
         padding: const EdgeInsets.all(10.0),
         child: GridView.builder(
@@ -71,10 +71,10 @@ class BarberContent extends StatelessWidget {
 }
 
 final List<Map<String, String>> barberTools = [
-  {'name': 'Comb', 'image': 'lib/assets/images/comb.png'},
-  {'name': 'Hair Clipper', 'image': 'lib/assets/images/hairClipper.png'},
-  {'name': 'Straight Razor', 'image': 'lib/assets/images/straightRazor.png'},
-  {'name': 'Hair Dryer', 'image': 'lib/assets/images/dryer.png'},
-  {'name': 'Scissors', 'image': 'lib/assets/images/scissors.png'},
-  {'name': 'Brush', 'image': 'lib/assets/images/brush.png'},
+  {'name': 'Comb', 'image': 'assets/images/comb.png'},
+  {'name': 'Hair Clipper', 'image': 'assets/images/hairClipper.png'},
+  {'name': 'Straight Razor', 'image': 'assets/images/straightRazor.png'},
+  {'name': 'Hair Dryer', 'image': 'assets/images/dryer.png'},
+  {'name': 'Scissors', 'image': 'assets/images/scissors.png'},
+  {'name': 'Brush', 'image': 'assets/images/brush.png'},
 ];
