@@ -47,9 +47,10 @@ class BarberTutorial extends StatelessWidget {
               color: Colors.green.shade600,
             ),
             SizedBox(height: 16),
+            SizedBox(height: 16),
             BarberTutorialBox(
-              text: 'Basics of Makeup and Makeup Tools',
-              color: Colors.yellow.shade300,
+              text: 'Video Tutorial',
+              color: Colors.blue.shade900,
             ),
           ],
         ),
