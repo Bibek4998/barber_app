@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:bookappp/lib/pages/barber_tutorial/screen/barber_tutorial.dart';
 
 class BarberContent extends StatelessWidget {
   const BarberContent({super.key});
