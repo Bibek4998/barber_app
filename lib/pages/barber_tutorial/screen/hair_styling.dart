@@ -5,6 +5,10 @@ class HairStyling extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text('Hair Styles')));
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Hair Styling', style: TextStyle(color: Colors.red)),
+      ),
+    );
   }
 }

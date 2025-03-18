@@ -40,11 +40,7 @@ class BarberTutorial extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             GestureDetector(
-              onTap:
-                  () => navigateToPage(
-                    context,
-                    const BarberingTools(),
-                  ), // Ensure this is imported
+              onTap: () => navigateToPage(context, const BarberingTools()),
               child: BarberTutorialBox(
                 text: 'Barbering Tools',
                 color: Colors.red.shade400,
@@ -52,11 +48,7 @@ class BarberTutorial extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             GestureDetector(
-              onTap:
-                  () => navigateToPage(
-                    context,
-                    const BasicHairCuts(),
-                  ), // Ensure this is imported
+              onTap: () => navigateToPage(context, const BasicHairCuts()),
               child: BarberTutorialBox(
                 text: 'Basic Hair Cuts',
                 color: Colors.blue.shade900,
@@ -64,25 +56,36 @@ class BarberTutorial extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             GestureDetector(
-              onTap:
-                  () => navigateToPage(
-                    context,
-                    const HairStyling(),
-                  ), // Ensure this is imported
+              onTap: () => navigateToPage(context, const HairStyling()),
               child: BarberTutorialBox(
                 text: 'Hair Styling Techniques',
                 color: Colors.green.shade600,
               ),
             ),
-            // Uncomment this if VideoTutorialPage exists
-            // const SizedBox(height: 16),
-            // GestureDetector(
-            //   onTap: () => navigateToPage(context, const VideoTutorialPage()),
-            //   child: BarberTutorialBox(
-            //     text: 'Video Tutorial',
-            //     color: Colors.blue.shade900,
-            //   ),
-            // ),
+            const SizedBox(height: 16),
+            GestureDetector(
+              onTap: () => navigateToPage(context, const HairStyling()),
+              child: BarberTutorialBox(
+                text: 'Hair Styling Techniques',
+                color: Colors.green.shade600,
+              ),
+            ),
+            const SizedBox(height: 16),
+            GestureDetector(
+              onTap: () => navigateToPage(context, const HairStyling()),
+              child: BarberTutorialBox(
+                text: 'Hair Styling Techniques',
+                color: Colors.green.shade600,
+              ),
+            ),
+            const SizedBox(height: 16),
+            GestureDetector(
+              onTap: () => navigateToPage(context, const HairStyling()),
+              child: BarberTutorialBox(
+                text: 'Hair Styling Techniques',
+                color: Colors.green.shade600,
+              ),
+            ),
           ],
         ),
       ),
@@ -90,7 +93,6 @@ class BarberTutorial extends StatelessWidget {
   }
 }
 
-// Dummy BarberTutorialBox Widget (Define or Import this)
 class BarberTutorialBox extends StatelessWidget {
   final String text;
   final Color color;
