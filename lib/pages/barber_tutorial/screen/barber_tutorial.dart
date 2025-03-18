@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:bookappp/pages/barber_tutorial/screen/barbering_tools.dart';
 import 'package:bookappp/pages/barber_tutorial/screen/basic_hair_cuts.dart';
 import 'package:bookappp/pages/barber_tutorial/screen/hair_styling.dart';
-// import 'package:bookappp/pages/barber_tutorial/screen/video_tutorial_page.dart';
 
 class BarberTutorial extends StatelessWidget {
   const BarberTutorial({super.key});

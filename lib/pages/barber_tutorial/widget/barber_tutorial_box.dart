@@ -1,4 +1,4 @@
-import 'package:bookappp/pages/barber_tutorial/screen/barber_content_screen.dart';
+import 'package:bookappp/pages/barber_tutorial/screen/barbering_tools.dart';
 import 'package:flutter/material.dart';
 
 class BarberTutorialBox extends StatelessWidget {
@@ -11,7 +11,7 @@ class BarberTutorialBox extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => BarberContent()),
+          MaterialPageRoute(builder: (context) => BarberingTools()),
         );
       },
       child: Container(
