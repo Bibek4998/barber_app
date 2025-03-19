@@ -24,9 +24,9 @@ class BarberTutorial extends StatelessWidget {
         ),
         backgroundColor: Colors.blue,
       ),
-      backgroundColor: Colors.red[100], // Fixed color
+      backgroundColor: Colors.red[100],
       body: Padding(
-        padding: const EdgeInsets.all(25.0), // Fixed decimal
+        padding: const EdgeInsets.all(25.0),
         child: Column(
           children: [
             const Text(
@@ -66,7 +66,7 @@ class BarberTutorial extends StatelessWidget {
             GestureDetector(
               onTap: () => navigateToPage(context, const HairStyling()),
               child: BarberTutorialBox(
-                text: 'Hair Styling Techniques',
+                text: 'Face Washing',
                 color: Colors.green.shade600,
               ),
             ),
@@ -74,7 +74,7 @@ class BarberTutorial extends StatelessWidget {
             GestureDetector(
               onTap: () => navigateToPage(context, const HairStyling()),
               child: BarberTutorialBox(
-                text: 'Hair Styling Techniques',
+                text: 'Hair Colouring',
                 color: Colors.green.shade600,
               ),
             ),
@@ -82,7 +82,7 @@ class BarberTutorial extends StatelessWidget {
             GestureDetector(
               onTap: () => navigateToPage(context, const HairStyling()),
               child: BarberTutorialBox(
-                text: 'Hair Styling Techniques',
+                text: 'Beard Trimming',
                 color: Colors.green.shade600,
               ),
             ),
