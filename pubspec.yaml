@@ -68,6 +68,26 @@ flutter:
     - assets/images/dryer.png
     - assets/images/scissors.png
     - assets/images/brush.png
+    - assets/images/taperfade.jpg
+    - assets/images/buzzcut.jpg
+    - assets/images/quiff.jpg
+    - assets/images/pompadour.jpg
+    - assets/images/mullet.jpg
+    - assets/images/frenchCrop.png
+    - assets/images/slickedback.png
+    - assets/images/modernmullet.png
+    - assets/images/texturedcrop.png
+    - assets/images/afro.png
+    - assets/images/dreadlocks.png
+    - assets/images/bald.png
+    - assets/images/skinfade.png
+    - assets/images/dropfade.png
+    - assets/images/shadowfade.png
+    - assets/images/burstfade.png
+
+
+    
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
