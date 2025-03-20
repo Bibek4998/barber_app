@@ -29,19 +29,12 @@ class BarberTutorial extends StatelessWidget {
       ),
       backgroundColor: Colors.red[100],
       body: Padding(
-        padding: const EdgeInsets.all(25.0),
-        child: Column(
+        padding: const EdgeInsets.all(16.0),
+        child: GridView.count(
+          crossAxisCount: 2,
+          crossAxisSpacing: 16,
+          mainAxisSpacing: 16,
           children: [
-            const Text(
-              "Begin your journey with us and enhance your skills in barbering. Below is a beginner-to-pro tutorial guide.",
-              style: TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.w400,
-                wordSpacing: 2,
-                color: Colors.black,
-              ),
-            ),
-            const SizedBox(height: 16),
             GestureDetector(
               onTap: () => navigateToPage(context, const BarberingTools()),
               child: BarberTutorialBox(
@@ -49,7 +42,6 @@ class BarberTutorial extends StatelessWidget {
                 color: Colors.red.shade400,
               ),
             ),
-            const SizedBox(height: 16),
             GestureDetector(
               onTap: () => navigateToPage(context, const BasicHairCuts()),
               child: BarberTutorialBox(
@@ -57,7 +49,6 @@ class BarberTutorial extends StatelessWidget {
                 color: Colors.blue.shade900,
               ),
             ),
-            const SizedBox(height: 16),
             GestureDetector(
               onTap: () => navigateToPage(context, const HairStyling()),
               child: BarberTutorialBox(
@@ -65,15 +56,13 @@ class BarberTutorial extends StatelessWidget {
                 color: Colors.green.shade600,
               ),
             ),
-            const SizedBox(height: 16),
             GestureDetector(
               onTap: () => navigateToPage(context, const FaceWashing()),
               child: BarberTutorialBox(
                 text: 'Face Washing',
-                color: Colors.yellowAccent,
+                color: Colors.black,
               ),
             ),
-            const SizedBox(height: 16),
             GestureDetector(
               onTap: () => navigateToPage(context, const HairColoring()),
               child: BarberTutorialBox(
@@ -81,7 +70,6 @@ class BarberTutorial extends StatelessWidget {
                 color: Colors.blueGrey.shade600,
               ),
             ),
-            const SizedBox(height: 16),
             GestureDetector(
               onTap: () => navigateToPage(context, const BeardTrimming()),
               child: BarberTutorialBox(
@@ -105,13 +93,14 @@ class BarberTutorialBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(20),
+      alignment: Alignment.center,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Text(
         text,
+        textAlign: TextAlign.center,
         style: const TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.bold,
