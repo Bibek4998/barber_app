@@ -1,3 +1,6 @@
+import 'package:bookappp/pages/barber_tutorial/screen/beard_trimming.dart';
+import 'package:bookappp/pages/barber_tutorial/screen/face_washing.dart';
+import 'package:bookappp/pages/barber_tutorial/screen/hair_coloring.dart';
 import 'package:flutter/material.dart';
 import 'package:bookappp/pages/barber_tutorial/screen/barbering_tools.dart';
 import 'package:bookappp/pages/barber_tutorial/screen/basic_hair_cuts.dart';
@@ -64,26 +67,26 @@ class BarberTutorial extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             GestureDetector(
-              onTap: () => navigateToPage(context, const HairStyling()),
+              onTap: () => navigateToPage(context, const FaceWashing()),
               child: BarberTutorialBox(
                 text: 'Face Washing',
-                color: Colors.green.shade600,
+                color: Colors.yellowAccent,
               ),
             ),
             const SizedBox(height: 16),
             GestureDetector(
-              onTap: () => navigateToPage(context, const HairStyling()),
+              onTap: () => navigateToPage(context, const HairColoring()),
               child: BarberTutorialBox(
                 text: 'Hair Colouring',
-                color: Colors.green.shade600,
+                color: Colors.blueGrey.shade600,
               ),
             ),
             const SizedBox(height: 16),
             GestureDetector(
-              onTap: () => navigateToPage(context, const HairStyling()),
+              onTap: () => navigateToPage(context, const BeardTrimming()),
               child: BarberTutorialBox(
                 text: 'Beard Trimming',
-                color: Colors.green.shade600,
+                color: Colors.lightBlue.shade600,
               ),
             ),
           ],
