@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bookappp/pages/barber_tutorial/model/basic_hair_cuts.dart';
 
 class BasicHairCuts extends StatelessWidget {
   const BasicHairCuts({super.key});
@@ -15,7 +16,6 @@ class BasicHairCuts extends StatelessWidget {
             fontWeight: FontWeight.w600,
           ),
         ),
-        centerTitle: true,
         backgroundColor: Colors.green.shade400,
       ),
       backgroundColor: Colors.green.shade900,
@@ -69,22 +69,3 @@ class BasicHairCuts extends StatelessWidget {
     );
   }
 }
-
-final List<Map<String, String>> hairCuts = [
-  {'name': 'Taper Fade', 'image': 'assets/images/taperfade.jpg'},
-  {'name': 'Buzz Cut', 'image': 'assets/images/buzzcut.jpg'},
-  {'name': 'Pompadour', 'image': 'assets/images/pompadour.jpg'},
-  {'name': 'Quiff', 'image': 'assets/images/quiff.jpg'},
-  {'name': 'Mullet', 'image': 'assets/images/mullet.jpg'},
-  {'name': 'French Crop', 'image': 'assets/images/frenchCrop.png'},
-  {'name': 'Slicked Back', 'image': 'assets/images/slickedback.png'},
-  {'name': 'Modern Mullet', 'image': 'assets/images/modernmullet.png'},
-  {'name': 'Textured Crop', 'image': 'assets/images/texturedcrop.png'},
-  {'name': 'Afro', 'image': 'assets/images/afro.png'},
-  {'name': 'Dreadlocks', 'image': 'assets/images/dreadlocks.png'},
-  {'name': 'Bald', 'image': 'assets/images/bald.png'},
-  {'name': 'Skin Fade', 'image': 'assets/images/skinfade.png'},
-  {'name': 'Drop Fade', 'image': 'assets/images/dropfade.png'},
-  {'name': 'Shadow Fade', 'image': 'assets/images/shadowfade.png'},
-  {'name': 'Burst Fade', 'image': 'assets/images/burstfade.png'},
-];
