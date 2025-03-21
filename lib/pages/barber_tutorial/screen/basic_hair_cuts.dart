@@ -8,7 +8,7 @@ class BasicHairCuts extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Basic Hair Cuts',
+          'Hair Cuts',
           style: TextStyle(
             color: Colors.black,
             fontSize: 30,
